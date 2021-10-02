@@ -1,2 +1,7 @@
-from etf_functions.xlb import return_fund_info
+# (XLB, XLC, XLE, XLF, XLI, XLK, XLP, XLRE, XLU, XLV, XLY)a
 
+from etf_functions.caller import *
+
+attrs = xly_attributes()
+
+print(attrs)
